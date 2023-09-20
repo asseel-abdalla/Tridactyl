@@ -1,12 +1,12 @@
 import java.util.Scanner;
 import java.io.*;
 
-public class TridactylAsseelMarieanneFINAL {
+public class TridactylAsseelandPeerFINAL {
 
 	public static void main(String args[]) throws IOException{
 		Scanner in = new Scanner (System.in);
 
-		System.out.print("WELCOME TO ASSEEL AND MARIE-ANNE'S TRIDACTYL CODE DECODER! \n\nPlease enter the file name you would like to decode: ");
+		System.out.print("WELCOME TO ASSEEL AND PEER'S TRIDACTYL CODE DECODER! \n\nPlease enter the file name you would like to decode: ");
 
 		String file = in.next();
 		Scanner inFile = new Scanner(new File(file));
